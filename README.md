@@ -31,6 +31,13 @@ Dit repository bevat een nieuwe statische website voor **MOSA — Marokkaans-Ned
 └── docs/wordpress-transfer-notes.md
 ```
 
+## Homepage brand image
+
+Homepage brand image:
+`assets/images/mosa-hospitality-homepage.png`
+
+This is the main MOSA hospitality image. It should be used as a brand visual on the homepage and possibly in flyers or brochures. It is not the official logo.
+
 ## Lokaal bekijken
 
 Open `index.html` direct in de browser of start een simpele lokale server:
