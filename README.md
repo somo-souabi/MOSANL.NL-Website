@@ -1,74 +1,18 @@
-# MOSA Website
+# MOSA statische website
 
-Official website project for **MOSA**.
+Dit repository bevat een nieuwe statische website voor **MOSA — Marokkaans-Nederlandse Organisatie voor Samenwerking & Advies**.
 
-**MOSA** stands for:
+## Belangrijk
 
-**Marokkaans-Nederlandse Organisatie voor Samenwerking & Advies**
+- Dit is een volledig nieuwe MOSA website, vanaf nul opgebouwd als statische HTML/CSS/JavaScript website.
+- De live WordPress website is niet verbonden met dit repository.
+- Wijzigingen in dit repository werken **niet automatisch** door op `mosanl.nl`.
+- Er is geen koppeling met WordPress, cPanel, FTP, analytics of externe tracking.
+- Afbeeldingen en logo's zijn placeholders totdat echte assets handmatig worden aangeleverd en toegevoegd.
+- Commit geen wachtwoorden, API-sleutels, privégegevens of hostinggegevens.
+- Verzin geen organisatiegegevens zoals bestuursleden, adressen, telefoonnummers, partners of testimonials. Gebruik placeholders totdat de informatie officieel is bevestigd.
 
-Website: https://mosanl.nl
-
----
-
-## Project Purpose
-
-This website represents MOSA as a modern, trustworthy and community-focused organisation.
-
-MOSA supports Marokkaans-Nederlandse citizens, families and organisations through:
-
-- Advice and support
-- Cooperation between people and organisations
-- Community activities and events
-- Information sessions
-- Social connection and representation
-
----
-
-## Brand Identity
-
-Main brand colours:
-
-- Blue
-- White
-- Red
-- Green
-
-Style direction:
-
-- Modern
-- Professional
-- Warm
-- Community-focused
-- Moroccan-Dutch identity, but not too busy
-- Strong contrast and readable text
-- Mobile-friendly design
-
----
-
-## Website Pages
-
-Main pages:
-
-- Home
-- Over MOSA
-- Diensten
-- Activiteiten / Evenementen
-- Nieuws / Blog
-- Contact
-
-Possible future pages:
-
-- Team / Bestuur
-- Partners
-- Veelgestelde vragen
-- Fotoalbum
-- Boeking / Aanmelden
-
----
-
-## Project Structure
-
-Suggested structure:
+## Structuur
 
 ```text
 /
@@ -78,11 +22,33 @@ Suggested structure:
 ├── activiteiten.html
 ├── nieuws.html
 ├── contact.html
+├── privacy.html
 ├── assets/
+│   ├── css/style.css
+│   ├── js/main.js
 │   ├── images/
-│   ├── logo/
-│   ├── icons/
-│   └── css/
-├── scripts/
-├── README.md
-└── extracted-content/
+│   └── logo/
+└── docs/wordpress-transfer-notes.md
+```
+
+## Lokaal bekijken
+
+Open `index.html` direct in de browser of start een simpele lokale server:
+
+```bash
+python3 -m http.server 8000
+```
+
+Ga daarna naar `http://localhost:8000`.
+
+## Placeholdergegevens
+
+Vul deze informatie pas aan wanneer deze officieel is aangeleverd:
+
+- e-mailadres
+- telefoonnummer / WhatsApp
+- regio
+- echte logo- en beeldbestanden
+- echte activiteiten, datums en locaties
+- echte nieuwsberichten
+- definitieve privacygegevens
