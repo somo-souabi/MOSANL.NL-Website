@@ -68,3 +68,10 @@ Community image: `assets/images/mosa-community-gathering.png`
 Advice image: `assets/images/mosa-advice-session.png`  
 Homework support image: `assets/images/mosa-homework-support.png`  
 Logo: `assets/logo/mosa-logo.png`
+
+## Design notes
+
+- Het designsysteem is geïnspireerd op de **kwaliteit en layoutstijl** van Kids Path 2 Engineering.
+- MOSA-content, onderwerpen en navigatie zijn volledig zelfstandig en niet gekopieerd.
+- Afbeeldingen moeten bestaan in `assets/images/`.
+- Het logo moet bestaan in `assets/logo/`.
