@@ -34,7 +34,7 @@ Dit repository bevat een nieuwe statische website voor **MOSA — Marokkaans-Ned
 ## Homepage brand image
 
 Homepage brand image:
-`assets/images/mosa-hospitality-homepage.png`
+`assets/images/MOSA-Ambassador.png`
 
 This is the main MOSA hospitality image. It should be used as a brand visual on the homepage and possibly in flyers or brochures. It is not the official logo.
 
@@ -59,3 +59,12 @@ Vul deze informatie pas aan wanneer deze officieel is aangeleverd:
 - echte activiteiten, datums en locaties
 - echte nieuwsberichten
 - definitieve privacygegevens
+
+
+## Approved MOSA website visuals
+
+Homepage brand image: `assets/images/MOSA-Ambassador.png`  
+Community image: `assets/images/mosa-community-gathering.png`  
+Advice image: `assets/images/mosa-advice-session.png`  
+Homework support image: `assets/images/mosa-homework-support.png`  
+Logo: `assets/logo/mosa-logo.png`
